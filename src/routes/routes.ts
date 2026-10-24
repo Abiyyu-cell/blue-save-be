@@ -10,7 +10,7 @@ router.get("/health", (_req, res) => res.status(200).json({ status: "123LETSGOO"
 router.use("/auth", authRoutes);
 router.use("/reports", reportRoutes);
 router.use("/donation", donationRoutes);
-router.use("/news", newsRoutes);
+//git statusrouter.use("/news", newsRoutes);
 router.use("/events", eventRoutes);
 
 export default router;
